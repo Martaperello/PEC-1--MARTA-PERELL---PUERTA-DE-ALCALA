@@ -1,0 +1,11 @@
+.general {   
+  @include center-content();
+  @include bg-color($primary-color)
+ }
+ .vw-100vh-10 {
+  width: 100vw;
+  height: 10vh;
+ }
+ .center { 
+text-align: center;
+} 

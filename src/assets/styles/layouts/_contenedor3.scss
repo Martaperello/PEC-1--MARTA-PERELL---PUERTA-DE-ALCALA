@@ -1,0 +1,15 @@
+.contenedor3 {
+    &__title {  
+      padding-top: 100px;
+    }
+    &__img {
+     @include propiedades-imagen;
+     max-width: 400px;
+     height: 300px;
+     float: left;
+     padding: 10px;
+    } 
+    &__text {
+      padding: 10px;
+     }
+    }

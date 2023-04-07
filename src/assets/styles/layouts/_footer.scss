@@ -1,0 +1,7 @@
+.footer {
+    @include bg-color($secondary-color);   
+    &__list {  
+    padding-top: 30px;
+    font-size: 25px;
+   }
+}
